@@ -68,7 +68,7 @@ spring:
   r2dbc:
     url: r2dbc:mssql://localhost:1433/warranty-gateway
     username: SA
-    password: yourStrong(!)Password
+    password: A_Str0ng_Required_Password
   thymeleaf:
     cache: false
 

@@ -887,7 +887,7 @@
                 <profile.test>testdev</profile.test>
                 <liquibase-plugin.url>jdbc:sqlserver://localhost:1433;database=warranty-gateway</liquibase-plugin.url>
                 <liquibase-plugin.username>SA</liquibase-plugin.username>
-                <liquibase-plugin.password>yourStrong(!)Password</liquibase-plugin.password>
+                <liquibase-plugin.password>A_Str0ng_Required_Password</liquibase-plugin.password>
             </properties>
             <dependencies>
                 <dependency>
@@ -991,7 +991,7 @@
                 <profile.test>testprod</profile.test>
                 <liquibase-plugin.url>jdbc:sqlserver://localhost:1433;database=warranty-gateway</liquibase-plugin.url>
                 <liquibase-plugin.username>SA</liquibase-plugin.username>
-                <liquibase-plugin.password>yourStrong(!)Password</liquibase-plugin.password>
+                <liquibase-plugin.password>A_Str0ng_Required_Password</liquibase-plugin.password>
             </properties>
             <build>
                 <plugins>
